@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h1 {
+    margin: 3rem 0 1rem 0;
+    font-size: xx-large;
+    font-weight: 900;
+}
+h3 {
+    margin: 0 0 8rem 0;
+    font-size: x-large;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 210px);
+    grid-gap: 0.8rem;
+    place-items: center;
+    place-content: center;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 20px;
+    transition: 0.2s ease-out;
+}
+.box:hover {
+    box-shadow: 0px 0px 30px whitesmoke;
+}
+.green {
+    background-color: rgb(12, 184, 12);
+    border-top-left-radius: 100%;
+}
+.pink {
+    background-color: rgb(248, 57, 57);
+    border-top-right-radius: 100%;
+}
+.orange {
+    background-color: rgb(249, 249, 89);
+    border-bottom-left-radius: 100%;
+}
+.blue {
+    background-color: rgb(68, 68, 232);
+    border-bottom-right-radius: 100%;
+}
+
+.flash {
+    background-color: white;
+}
+
+.danger {
+    background-color: red;
+}
